@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="1.7.0">
+	<name>Chrono Library</name>
+	<libraryname>chrono_lib</libraryname>
+	<author>ChronoEngine.com</author>
+	<creationDate>2024</creationDate>
+	<copyright>Copyright (C) 2024</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>webmaster@chronoengine.com</authorEmail>
+	<authorUrl>www.chronoengine.com</authorUrl>
+	<version>1.0.26</version>
+	<description>The Chrono library framework classes</description>
+	
+	<files>
+		<filename>chrono.php</filename>
+		<folder>assets</folder>
+		<folder>widgets</folder>
+	</files>
+	<updateservers>
+		<server type="library" priority="1" name="Chrono library update server">https://www.chronoengine.com/chrono_joomla_updates/chrono_lib.xml</server>
+	</updateservers>
+</extension>

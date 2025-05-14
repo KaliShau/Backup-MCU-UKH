@@ -1,0 +1,15 @@
+<?php
+/**
+* ChronoForms 8
+* Copyright (c) 2023 ChronoEngine.com, All rights reserved.
+* Author: (ChronoEngine.com Team)
+* license:     GNU General Public License version 2 or later; see LICENSE.txt
+* Visit http://www.ChronoEngine.com for regular updates and information.
+**/
+defined('_JEXEC') or die('Restricted access');
+
+if(strlen($element["checked_provider"]) > 0){
+    $element["checked"] = CF8::parse($element["checked_provider"]);
+}else{
+    $element["checked"] = true;
+}

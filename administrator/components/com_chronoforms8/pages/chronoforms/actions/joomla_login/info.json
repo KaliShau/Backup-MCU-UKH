@@ -1,0 +1,17 @@
+{
+	"title": "Login User",
+	"group": "Joomla",
+	"areas": [
+		{
+			"name": "login_failed",
+			"color": "red",
+			"title": "On Login Failed"
+		},
+		{
+			"name": "login_success",
+			"color": "green",
+			"title": "On Login Success"
+		}
+	],
+	"icon":"arrow-right-to-bracket"
+}

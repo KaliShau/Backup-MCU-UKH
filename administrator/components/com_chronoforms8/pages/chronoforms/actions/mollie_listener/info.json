@@ -1,0 +1,48 @@
+{
+	"title": "Mollie Listener",
+	"group": "Services",
+	"premium": 1,
+	"areas": [
+		{
+			"name": "complete",
+			"color": "green",
+			"title": "On complete"
+		},
+		{
+			"name": "open",
+			"color": "red",
+			"title": "On open"
+		},
+		{
+			"name": "pending",
+			"color": "red",
+			"title": "On pending"
+		},
+		{
+			"name": "failed",
+			"color": "red",
+			"title": "On failed"
+		},
+		{
+			"name": "expired",
+			"color": "red",
+			"title": "On expired"
+		},
+		{
+			"name": "canceled",
+			"color": "red",
+			"title": "On canceled"
+		},
+		{
+			"name": "refunds",
+			"color": "red",
+			"title": "On refunds"
+		},
+		{
+			"name": "chargebacks",
+			"color": "red",
+			"title": "On chargebacks"
+		}
+	],
+	"icon":"credit-card"
+}

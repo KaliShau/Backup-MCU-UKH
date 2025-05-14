@@ -1,0 +1,7 @@
+{
+	"title": "Download",
+	"group": "Files",
+	"premium": 1,
+	"hints": {"path":"File"},
+	"icon":"download"
+}

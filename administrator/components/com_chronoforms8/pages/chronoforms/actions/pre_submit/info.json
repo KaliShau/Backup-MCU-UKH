@@ -1,0 +1,14 @@
+{
+	"title": "Pre Submit",
+	"group": "Advanced",
+	"premium": 1,
+	"areas": [
+		{
+			"name": "submit",
+			"color": "green",
+			"custom": 1,
+			"title": "On Form Submit (On processing Load items)"
+		}
+	],
+	"icon":"flag-checkered"
+}

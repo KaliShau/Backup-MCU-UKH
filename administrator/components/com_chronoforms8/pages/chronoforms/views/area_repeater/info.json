@@ -1,0 +1,16 @@
+{
+	"title": "Repeater",
+	"group": "Areas",
+	"class": "",
+	"premium": 1,
+	"areas": [
+		{
+			"name": "views",
+			"color": "white",
+			"note":"Drag fields to be repeated here.",
+			"custom": 1,
+			"title": "Views"
+		}
+	],
+	"icon":"repeat"
+}

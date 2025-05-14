@@ -1,0 +1,18 @@
+{
+	"title": "Email",
+	"group": "Basics",
+	"hints": {"recipients":"Recipients"},
+	"areas": [
+		{
+			"name": "not_sent",
+			"color": "red",
+			"title": "On Sending Error"
+		},
+		{
+			"name": "sent",
+			"color": "green",
+			"title": "On Sending Success"
+		}
+	],
+	"icon":"envelope regular"
+}

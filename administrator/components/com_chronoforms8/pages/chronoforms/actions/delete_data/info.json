@@ -1,0 +1,28 @@
+{
+	"title": "Delete Data",
+	"group": "Database",
+	"hints": {"dbtable":"Table"},
+	"areas": [
+		{
+			"name": "not_deleted",
+			"color": "red",
+			"title": "On Delete Error"
+		},
+		{
+			"name": "delete_matched",
+			"color": "green",
+			"title": "On Delete Records Found"
+		},
+		{
+			"name": "delete_not_matched",
+			"color": "red",
+			"title": "On Delete Records Not Found"
+		},
+		{
+			"name": "deleted",
+			"color": "green",
+			"title": "On Delete Success"
+		}
+	],
+	"icon":"trash"
+}

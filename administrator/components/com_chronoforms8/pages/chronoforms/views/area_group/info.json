@@ -1,0 +1,15 @@
+{
+	"title": "Group",
+	"group": "Areas",
+	"class": "",
+	"areas": [
+		{
+			"name": "elements",
+			"color": "white",
+			"note":"Drag Views or Actions here.",
+			"custom": 1,
+			"title": "Elements to group"
+		}
+	],
+	"icon":"box"
+}

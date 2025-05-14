@@ -1,0 +1,14 @@
+{
+	"title": "Loop",
+	"group": "Advanced",
+	"areas": [
+		{
+			"name": "loop",
+			"color": "white",
+			"custom": 1,
+			"title": "ForEach Item ..."
+		}
+	],
+	"hints": {"loopvar":"Variable"},
+	"icon":"rotate"
+}

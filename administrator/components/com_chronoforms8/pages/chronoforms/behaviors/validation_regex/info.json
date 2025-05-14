@@ -1,0 +1,5 @@
+{
+	"text": "Valid Regex",
+	"icon": "spell-check",
+	"description": "Match the field value against a regular expression."
+}

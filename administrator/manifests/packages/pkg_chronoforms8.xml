@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6" method="upgrade">
+	<name>ChronoForms8 Package</name>
+	<author>ChronoEngine.com Team</author>
+	<creationDate>October 2024</creationDate>
+	<packagename>chronoforms8</packagename>
+	<version>8.0.22</version>
+	<url>http://www.chronoengine.com/</url>
+	<packager>ChronoEngine.com Team</packager>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<packagerurl>http://www.www.chronoengine.com.com/</packagerurl>
+	<description>ChronoForms8 extension package (Component + Chrono library)</description>
+	<scriptfile>install.pkg_chronoforms8.php</scriptfile>
+	<files folder="packages">
+		<file type="library" id="chrono_lib">chrono_lib.zip</file>
+		<file type="component" id="chronoforms6" >com_chronoforms8.zip</file>
+	</files>
+</extension>

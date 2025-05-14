@@ -1,0 +1,15 @@
+{
+	"title": "Multi Field Area",
+	"group": "Areas",
+	"class": "",
+	"areas": [
+		{
+			"name": "fields",
+			"color": "white",
+			"note":"Drag fields here.",
+			"custom": 1,
+			"title": "Fields"
+		}
+	],
+	"icon":"ellipsis"
+}

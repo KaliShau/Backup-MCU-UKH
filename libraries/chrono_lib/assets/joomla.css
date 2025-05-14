@@ -1,0 +1,16 @@
+.nui.header{
+    z-index: auto;
+}
+.nui[class*="bottom attached"] {
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+}
+.nui.table > :not(caption) > * > *{
+    background-color: initial;
+}
+.nui.checkbox>label::before{
+    margin-top: -0.1em;
+}
+body.admin #subhead-container{
+    display: none;
+}

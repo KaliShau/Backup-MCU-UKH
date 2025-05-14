@@ -1,0 +1,15 @@
+{
+	"title": "Container / Grid",
+	"group": "Areas",
+	"class": "",
+	"areas": [
+		{
+			"name": "views",
+			"color": "white",
+			"note":"Drag fields here.",
+			"custom": 1,
+			"title": "Views"
+		}
+	],
+	"icon":"border-all"
+}

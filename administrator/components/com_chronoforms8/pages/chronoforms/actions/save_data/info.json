@@ -1,0 +1,23 @@
+{
+	"title": "Save Data",
+	"group": "Database",
+	"hints": {"dbtable":"Table"},
+	"areas": [
+		{
+			"name": "not_saved",
+			"color": "red",
+			"title": "On Save Failed"
+		},
+		{
+			"name": "error",
+			"color": "red",
+			"title": "On Save Error"
+		},
+		{
+			"name": "saved",
+			"color": "green",
+			"title": "On Save Success"
+		}
+	],
+	"icon":"floppy-disk"
+}

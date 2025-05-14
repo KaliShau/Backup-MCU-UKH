@@ -1,0 +1,5 @@
+{
+	"text": "ACL",
+	"icon": "shield",
+	"description": "Control which viewlevel is required to run this element."
+}

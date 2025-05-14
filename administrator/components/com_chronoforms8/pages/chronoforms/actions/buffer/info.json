@@ -1,0 +1,14 @@
+{
+	"title": "Output Buffer",
+	"group": "Advanced",
+	"premium": 1,
+	"areas": [
+		{
+			"name": "buffer",
+			"color": "green",
+			"custom": 1,
+			"title": "On Buffer"
+		}
+	],
+	"icon":"layer-group"
+}

@@ -1,0 +1,5 @@
+{
+	"text": "Where Statement",
+	"icon": "filter",
+	"description": "Enter a where statement for this SQL operation"
+}

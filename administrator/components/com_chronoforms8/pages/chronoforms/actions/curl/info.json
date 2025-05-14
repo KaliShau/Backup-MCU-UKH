@@ -1,0 +1,14 @@
+{
+	"title": "CURL",
+	"group": "Advanced",
+	"premium": 1,
+	"areas": [
+		{
+			"name": "fail",
+			"color": "red",
+			"title": "On Connection Failure"
+		}
+	],
+	"hints": {"url":"URL"},
+	"icon":"phone"
+}

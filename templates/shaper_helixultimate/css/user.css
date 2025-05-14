@@ -1,0 +1,7 @@
+/* Ваши кастомные стили */
+body {
+    background: #111 !important;
+}
+.custom-class {
+    color: red;
+}

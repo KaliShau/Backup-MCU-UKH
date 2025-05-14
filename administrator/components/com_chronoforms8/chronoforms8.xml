@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+	<name>ChronoForms8</name>
+	<creationDate>April 2025</creationDate>
+	<author>ChronoMan</author>
+	<copyright>ChronoEngine.com 2006 - 2025</copyright>
+	<authorEmail>webmaster@chronoengine.com</authorEmail>
+	<authorUrl>www.chronoengine.com</authorUrl>
+	<version>8.0.46</version>
+	<license>GPLv2</license>
+	<description>The ChronoForms 8 is the latest major release of the popular ChronoForms extension for Joomla, build rich forms quickly.</description>
+
+	<scriptfile>install.php</scriptfile>
+	<uninstallfile>uninstall.php</uninstallfile>
+	<files>
+		<filename>chronoforms8.php</filename>
+		<filename>index.html</filename>
+		<folder>views</folder>
+		<folder>uploads</folder>
+		<folder>files</folder>
+	</files>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+		</sql>
+	</uninstall>	
+	<administration>		
+		<menu link="com_chronoforms8" view="main">ChronoForms 8</menu>
+		<files folder="admin">
+			<filename>extension.php</filename>
+			<filename>chronoforms8.php</filename>
+			<filename>index.html</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<folder>language</folder>
+			<folder>locales</folder>
+			<folder>pages</folder>
+			<folder>libs</folder>
+			<folder>sql</folder>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB.sys.ini</language>
+			<language tag="en-GB">language/en-GB.menu.ini</language>
+			<language tag="en-GB">language/en-GB.ini</language>
+		</languages>
+	</administration>
+	<updateservers>
+		<server type="extension" priority="1" name="ChronoForms v8 update server">https://www.chronoengine.com/chrono_joomla_updates/chronoforms8.xml</server>
+	</updateservers>
+</extension>

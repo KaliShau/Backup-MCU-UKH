@@ -1,0 +1,19 @@
+{
+	"title": "Read Data",
+	"group": "Database",
+	"premium": 1,
+	"areas": [
+		{
+			"name": "not_found",
+			"color": "red",
+			"title": "On No Records Found"
+		},
+		{
+			"name": "found",
+			"color": "green",
+			"title": "On Record(s) Found"
+		}
+	],
+	"hints": {"dbtable":"Table"},
+	"icon":"database"
+}
