@@ -54,7 +54,7 @@ class JConfig {
 	public $MetaDesc = '';
 	public $MetaAuthor = true;
 	public $MetaVersion = false;
-	public $robots = '';
+	public $robots = 'noindex, nofollow';
 	public $sef = true;
 	public $sef_rewrite = false;
 	public $sef_suffix = false;
@@ -84,7 +84,7 @@ class JConfig {
 	public $replyto = '';
 	public $replytoname = '';
 	public $MetaRights = '';
-	public $sitename_pagetitles = 0;
+	public $sitename_pagetitles = 2;
 	public $session_filesystem_path = '';
 	public $session_memcached_server_host = 'localhost';
 	public $session_memcached_server_port = 11211;
